@@ -1,0 +1,19 @@
+SUMMARY
+
+    AlbumReminder is an automatic email reminder program, that reads a list of
+bands and release dates from a file in your /home. It's currently intended to
+be used as a cron job.
+
+REQUIREMENTS
+
+    You must have an SMTP server running on localhost. I used Postfix 2.8.0. If
+you want reminders for albums without full dates (mm/dd/yyyy), you'll also have
+to make sure AlbumReminder runs on the 1st of the month (I'll fix that soon).
+
+USAGE
+
+    AlbumReminder.py <email address>
+
+AUTHOR
+    AlbumReminder is created by Austin Pocus.
+
